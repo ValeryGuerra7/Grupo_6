@@ -30,4 +30,21 @@ def sum_matriz_trian_sup(A):
 
 D = [[1,2,3],[4,5,6],[7,8,2]]
 X = sum_matriz_trian_sup(D)
+
+def resta():
+    a = float(input("Primer número (minuendo): "))
+    b = float(input("Segundo número (sustraendo): "))
+    resultado = a - b
+    print("La diferencia es", resultado)
+    return resultado
+
+def division():
+    a = float(input("Numerador: "))
+    b = float(input("Denominador: "))
+    if b == 0:
+        print("Error: No se puede dividir entre cero.")
+        return None
+    resultado = a / b
+    print("El cociente es", resultado)
+    return resultado
 '''
