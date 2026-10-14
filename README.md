@@ -1,6 +1,6 @@
 # Grupo-6
 
-### TRABAJO GRUPAL| LENGUAJE DE PROGRAMACIÓN II | 
+### TRABAJO GRUPAL | LENGUAJE DE PROGRAMACIÓN II | 
 
 #### Integrantes
 1. Anaya Yarleque Nahomi Alessandra
