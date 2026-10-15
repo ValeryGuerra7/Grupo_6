@@ -48,3 +48,12 @@ def division():
     print("El cociente es", resultado)
     return resultado
 '''
+'''
+def sumar(a, b):
+    return a + b
+
+print("Calculadora del grupo 6 - Modificado por Sergio Mendoza Chavez")
+print("Suma 5 + 3 =", sumar(5, 3))
+'''
+
+
