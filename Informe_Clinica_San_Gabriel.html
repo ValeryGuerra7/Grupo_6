@@ -353,7 +353,7 @@ footer { border-top: 1px solid var(--line); background: var(--panel); }
     <div class="cifra"><span class="n">3</span><span class="l">tablas de pandas</span><span class="d">pacientes, médicos y citas</span></div>
   </div>
 
-  <p>El proyecto está dividido en cuatro cuadernos que se continúan uno al otro. Cada integrante desarrolló su parte sobre el trabajo del anterior, y el quinto cuaderno reúne todo con el informe final.</p>
+  <p>El proyecto está dividido en cuatro cuadernos que se continúan uno al otro. Cada integrante desarrolló su parte sobre el trabajo del anterior, y el cuaderno de Dayvi reúne todo el sistema completo.</p>
 
   <div class="tabla-wrap"><table class="tabla">
     <thead><tr><th>Integrante</th><th>Usuario</th><th>Parte</th><th>Clases</th></tr></thead>
@@ -852,7 +852,14 @@ def cancelar(self):
         print(&quot;ERROR: no existe un medico con codigo &quot; + codigo_medico + &quot;.&quot;)
         return None
 
-    # REGLA 3: horario de atencion de 08:00 a 18:00
+    # REGLA 3: fecha y hora validas, y horario de atencion de 08:00 a 18:00
+    if not self.fecha_valida(fecha):
+        print(&quot;ERROR: la fecha debe tener el formato dd/mm/aaaa y existir.&quot;)
+        return None
+    if not self.hora_valida(hora):
+        print(&quot;ERROR: la hora debe tener el formato HH:MM (por ejemplo 09:30).&quot;)
+        return None
+
     hora_numero = int(hora[0:2])
     if hora_numero &lt; 8 or hora_numero &gt;= 18:
         print(&quot;ERROR: la clinica atiende de 08:00 a 18:00.&quot;)
@@ -1035,7 +1042,7 @@ MEDICO MAS SOLICITADO : Dr(a). Carlos Rojas Vega (Medicina General) con 2 cita(s
 
 <footer>
   <div class="pie-in">
-    <p><strong>Archivos del proyecto:</strong> <code>Parte1_Anaya_Nahomi.ipynb</code>, <code>Parte2_Guerra_Ximena.ipynb</code>, <code>Parte3_Mendoza_Sergio.ipynb</code>, <code>Parte4_Fernandez_Dayvi.ipynb</code> y <code>Proyecto_Completo.ipynb</code>.</p>
+    <p><strong>Archivos del proyecto:</strong> <code>ClasesNahomi.ipynb</code> (parte 1), <code>Código_Valery_1.ipynb</code> (partes 1-2), <code>Codigo_Sergio3.ipynb</code> (partes 1-3) y <code>Código_Dayvi_4.ipynb</code> (sistema completo), más <code>Diagrama_Clases_Grupo6.png</code>.</p>
     <p>Evaluación Grupal 1 — Trabajo Parcial. Los datos de pacientes y médicos son ficticios y de uso académico.</p>
   </div>
 </footer>
