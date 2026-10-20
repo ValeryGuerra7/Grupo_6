@@ -14,11 +14,11 @@ Sistema de Gestión de Citas Médicas de la **Clínica San Gabriel**, programado
 | Archivo | Contenido |
 |---|---|
 | `ClasesNahomi.ipynb` | Parte 1 |
-| `Código_Valery_1.ipynb` | Partes 1 y 2 |
-| `Codigo_Sergio3.ipynb` | Partes 1 a 3 |
-| `Código_Dayvi_4.ipynb` | **Sistema completo** (partes 1 a 4) |
+| `Código_Valery_1.ipynb` | Partes 2 |
+| `Codigo_Sergio3.ipynb` | Partes 3 |
+| `Código_Dayvi_4.ipynb` | partes 4 |
 | `Diagrama_Clases_Grupo6.png` | Diagrama de clases |
 | `Informe_Clinica_San_Gabriel.html` | Informe técnico |
 
 #### Cómo ejecutarlo
-Abra `Código_Dayvi_4.ipynb` en Jupyter o Google Colab y use **Ejecutar todas**. Requiere Python 3 y `pandas`. Para probar el menú interactivo, quite el `#` de la última línea de la celda 4.4 y ejecútela de nuevo.
+Abra `Proyecto_final.ipynb` en Jupyter o Google Colab y use **Ejecutar todas**. Requiere Python 3 y `pandas`. Para probar el menú interactivo, quite el `#` de la última línea de la celda 4.4 y ejecútela de nuevo.
